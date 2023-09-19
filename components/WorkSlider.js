@@ -46,10 +46,6 @@ const workSlider = {
         },
         {
           title: 'title',
-          path: '/thumb1.png',
-        },
-        {
-          title: 'title',
           path: '/thumb2.png',
         },
         {
