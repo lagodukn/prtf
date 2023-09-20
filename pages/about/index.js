@@ -7,39 +7,56 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaWordpress,
   FaFigma,
+  FaPython,
+  FaNodeJs,
+  FaAngular
 } from "react-icons/fa";
 
 import {
   SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
+  SiAnsys,
+  SiNumpy,
+  SiSelenium,
+  SiPandas,
+  SiTypescript,
+  SiSqlite,
+  SiIonic
 } from "react-icons/si";
 
 
 //  data
 const aboutData = [
   {
-    title: 'skills',
+    title: 'Competências',
     info: [
       {
-        title: 'Web Development',
+        title: 'DEV FullStack',
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
           <FaJs />,
+          <SiTypescript />,
+          <FaAngular />,
           <FaReact />,
           <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaNodeJs />,
+          <SiSqlite />,
+          <SiIonic />
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [<FaFigma />],
       },
+      {
+        title: 'CFD - Computational Fluid Dynamics',
+        icons: [<SiAnsys />, <FaPython />],
+      },
+      {
+        title: 'Análise de Dados',
+        icons: [<FaPython />, <SiNumpy />, <SiPandas />, <SiSelenium />]
+      }
     ],
   },
   {
@@ -139,7 +156,7 @@ const About = () => {
         <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
           {aboutData.map((item, itemIndex) => {
             return (
-              <div key={itemIndex} className={`${index === itemIndex && 'text-purple-500 after:w-[100%] after:bg-purple-500 after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+              <div key={itemIndex} className={`${index === itemIndex && 'text-yellow-200 after:w-[100%] after:bg-yellow-200 after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
               onClick={() => setIndex(itemIndex)}
               >
                 {item.title}
