@@ -58,7 +58,7 @@ const TestimonialSlider = () => {
                 <div className='text-[12px] uppercase font-extralight'>{item.position}</div>
               </div>
             </div>
-            <div className='flex-1 flex flex-col justify-center before:w-[2px] xl:before:bg-yellow-200 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20'>
+            <div className='flex-1 flex flex-col justify-center before:w-[2px] xl:before:bg-accentyellow xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20'>
               <div className='mb-4'>
                 <FaQuoteLeft className='text-4xl xl:text-6xl text-white/40 mx-auto md:mx-10'/>
               </div>

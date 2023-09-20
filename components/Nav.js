@@ -41,8 +41,8 @@ const Nav = () => {
         return (
           <Link 
             className={`${
-              link.path === pathname && 'text-violet-400'}
-              relative flex items-center group hover:text-yellow-200 transition-all duration-100`} 
+              link.path === pathname && 'text-accentpink'}
+              relative flex items-center group hover:text-accentyellow transition-all duration-100`} 
             href={link.path}
             key={index}
           >

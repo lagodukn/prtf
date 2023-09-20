@@ -25,6 +25,11 @@ module.exports = {
         primary: '#131424',
         secondary: '#393A47',
         accent: '#F13024',
+        accentpurple: '#962FBF',
+        accentpink: '#D62976',
+        accentblue: '#4F5BD5',
+        accentyellow: '#FEDA75',
+        accentorange: '#FA7E1E',
       },
       backgroundImage: {
         site: 'url("/site-bg.svg")',

@@ -19,7 +19,7 @@ const Home = () => {
           exit='hidden'
           className='h1 uppercase text-slate-50	'>
           Titulo de impacto Com <br />{' '}
-          <span className='uppercase font-bold text-black'>Destaque </span><span className='uppercase font-bold text-yellow-200'>Colorido</span> <br />
+          <span className='uppercase font-bold text-black'>Destaque </span><span className='uppercase font-bold text-accentyellow'>Colorido</span> <br />
         </motion.h1>
         {/* {subtitulo} */}
         <motion.p variants={fadeIn('down', 0.4)}
