@@ -156,7 +156,7 @@ const About = () => {
         <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
           {aboutData.map((item, itemIndex) => {
             return (
-              <div key={itemIndex} className={`${index === itemIndex && 'text-purple-600 after:w-[100%] after:bg-purple-600 after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+              <div key={itemIndex} className={`${index === itemIndex && 'text-yellow-200 after:w-[100%] after:bg-yellow-200 after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
               onClick={() => setIndex(itemIndex)}
               >
                 {item.title}
