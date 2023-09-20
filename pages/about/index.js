@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import CountUp from "react-countup";
+import ParticlesContainer from '../../components/ParticlesContainer';
 
 // icons
 import {
@@ -112,6 +113,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
   return(
   <div className='bg-primary/60 h-[85vh] xl:h-[90vh] m-4 rounded-3xl text-center xl:text-left'>
+    <ParticlesContainer />
     <div className="container mx-auto h-full w-full flex flex-col items-center xl:flex-row gap-x-6">
       {/* {text} */}
       <div className="flex-1 flex flex-col justify-center">
@@ -122,29 +124,29 @@ const About = () => {
           <div className='flex flex-1 xl:gap-x-6'>
             {/* {experience} */}
             <div className='relative flex-1 bg-white/20 rounded-2xl px-2 py-2'>
-              <div className='text-2xl xl:text-4xl font-extrabold text-accentpurple ml-2 mb-2'>
-                <CountUp start={0} end={10} duration={5} /> + 
+              <div className='text-2xl xl:text-3xl font-extrabold text-accentyellow ml-2 mb-2'>
+                <CountUp start={0} end={10} duration={7} /> + 
               </div>
               <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] ml-2'>Anos de experiência</div>
             </div>
             {/* {clients} */}
             <div className='relative flex-1 bg-white/20 rounded-2xl px-2 py-2'>
-              <div className='text-2xl xl:text-4xl font-extrabold text-accentpurple mb-2 ml-2'>
-                <CountUp start={0} end={250} duration={5} /> + 
+              <div className='text-2xl xl:text-3xl font-extrabold text-accentyellow mb-2 ml-2'>
+                <CountUp start={0} end={200} duration={7} /> + 
               </div>
               <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] ml-2'>Clientes Satisfeitos</div>
             </div>
             {/* {projects} */}
             <div className='relative flex-1 bg-white/20 rounded-2xl px-2 py-2'>
-              <div className='text-2xl xl:text-4xl font-extrabold text-accentpurple mb-2 ml-2'>
-                <CountUp start={0} end={50} duration={5} /> + 
+              <div className='text-2xl xl:text-3xl font-extrabold text-accentyellow mb-2 ml-2'>
+                <CountUp start={0} end={50} duration={7} /> + 
               </div>
               <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] ml-2'>Projetos Finalizados</div>
             </div>
             {/* {awards} */}
             <div className='relative flex-1 bg-white/20 rounded-2xl px-2 py-2'>
-              <div className='text-2xl xl:text-4xl font-extrabold text-accentpurple mb-2 ml-2'>
-                <CountUp start={0} end={150} duration={5} /> + 
+              <div className='text-2xl xl:text-3xl font-extrabold text-accentyellow mb-2 ml-2'>
+                <CountUp start={0} end={100} duration={7} /> + 
               </div>
               <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] ml-2'>Conquistas realizadas</div>
             </div>
@@ -156,7 +158,7 @@ const About = () => {
         <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
           {aboutData.map((item, itemIndex) => {
             return (
-              <div key={itemIndex} className={`${index === itemIndex && 'text-accentyellow after:w-[100%] after:bg-accentyellow after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+              <div key={itemIndex} className={`${index === itemIndex && 'text-white after:w-[100%] after:bg-white after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
               onClick={() => setIndex(itemIndex)}
               >
                 {item.title}

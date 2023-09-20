@@ -1,8 +1,10 @@
 import {} from 'react-icons/rx'
 import ServiceSlider from '../../components/ServiceSlider'
+import ParticlesContainer from '../../components/ParticlesContainer';
 
 const Services = () => {
   return <div className='bg-primary/60 h-[85vh] xl:h-[90vh] m-4 rounded-3xl'>
+    <ParticlesContainer />
     <div className='container mx-auto h-full flex flex-col justify-center'>
       <div className='flex flex-col xl:flex-row gap-x-8'>
         {/* {text} */}

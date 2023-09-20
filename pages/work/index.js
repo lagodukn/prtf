@@ -1,8 +1,10 @@
 import {} from 'react-icons/rx'
 import WorkSlider from '../../components/WorkSlider'
+import ParticlesContainer from '../../components/ParticlesContainer';
 
 const Work = () => {
   return <div className='bg-primary/60 h-[85vh] xl:h-[90vh] m-4 rounded-3xl'>
+    <ParticlesContainer />
     <div className='container mx-auto h-full flex flex-col justify-center'>
       <div className='flex flex-col xl:flex-row gap-x-8 p-32 lg:p-40'>
         {/* {text} */}

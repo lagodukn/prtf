@@ -1,4 +1,5 @@
 import {BsArrowRight} from 'react-icons/bs'
+import ParticlesContainer from '../../components/ParticlesContainer';
 
 
 const Contact = () => {
