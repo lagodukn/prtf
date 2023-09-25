@@ -1,5 +1,5 @@
 const Header = () => {
-  return <header className="ml-4">Thiago Lagares Gonçalves - Mechanical Engineer - Brazil</header>;
+  return <header className="ml-4 text-transparent"> EasterEgg</header>;
 };
 
 export default Header;

@@ -1,25 +1,25 @@
 // testimonial data
 const testimonialData = [
   {
-    image: '/t-avt-1.png',
-    name: 'Anne Smith',
-    position: 'Customer',
-    message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
-  },
-  {
     image: '/t-avt-2.png',
-    name: 'Jane Doe',
-    position: 'Customer',
+    name: 'Adriano Possebon',
+    position: 'Professor Doutor - UnB',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Muito dedicado, sempre buscando desafios maiores; entregou 25 simulações CFD no TCC onde uma só seria necessária! Trabalho nível de mestrado.',
   },
   {
     image: '/t-avt-3.png',
-    name: 'Jhon Doe',
-    position: 'Customer',
+    name: 'Thiago Rivero',
+    position: 'CEO - Coalah',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Homem de jornada profissional marcada pela ótima capacidade de aprendizado, pela constante busca do aprimoramento, de indole é notavelmente benevolente, sempre pronto para ajudar e inspirar os outros.',
+  },
+  {
+    image: '/t-avt-1.png',
+    name: 'Raphael Matsunaga',
+    position: 'CEO - HealthGo',
+    message:
+      'Profissional competente, transparente e muito dedicado à evolução pessoal e profissiona.',
   },
 ];
 
