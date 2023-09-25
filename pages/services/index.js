@@ -10,14 +10,10 @@ const Services = () => {
         {/* {text} */}
         <div className='text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0'>
           <h2 className='h2 xl:mt-8'>
-            Meus Skill <span className='text-accentpink'>.</span>
+            Aptidões oferecidas <span className='text-accentpink'>.</span>
           </h2>
           <p className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-            sadjio asjio iasdjio asjjias jiosad jiasjiod asdasd mioasdioasdmioasmiodasmiodmioamiod mioamio asd miasm amisdamiosd adipiscingasdasdd
-            asdasdhuasdasduashuidashuidhuasdasd
-            ahuisdhiasudhuiasdhui
-            asmdasiodmasiod
-            aiksmdaosdasmd
+          Sinta-se a vontade para obter suas soluções personalizadas em engenharia, desenvolvimento web/desktop/app, data science e design, unindo expertises em múltiplas áreas.
           </p>
         </div>
         <div className='h-full xl:max-w-[65%]'>

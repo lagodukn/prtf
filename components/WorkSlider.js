@@ -13,8 +13,8 @@ const workSlider = {
     {
       images: [
         {
-          title: 'title',
-          description: 'description',
+          title: 'FullStack + UI/UX',
+          description: 'HealGo Technologies',
           path: '/thumb1.png',
         },
       ],
@@ -22,8 +22,8 @@ const workSlider = {
     {
       images: [
         {
-          title: 'title',
-          description: 'description',
+          title: 'Projeto CFD + análise de dados - MotoGP',
+          description: 'UnB',
           path: '/thumb2.png',
         },
       ],
@@ -31,8 +31,8 @@ const workSlider = {
     {
       images: [
         {
-          title: 'title',
-          description: 'description',
+          title: 'FrontEnd E2E + UI/UX',
+          description: 'IcaBank',
           path: '/thumb3.png',
         },
       ],
@@ -40,8 +40,8 @@ const workSlider = {
     {
       images: [
         {
-          title: 'title',
-          description: 'description',
+          title: 'Template para Site',
+          description: 'Design',
           path: '/thumb4.png',
         },
       ],
@@ -74,7 +74,7 @@ const WorkSlider = () => {
                   <div className='absolute inset-0 bg-gradient-to-l from-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
                   <div className='absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl-translate-y-20 transition-all duration-300'>
                     <div className='flex items-center justify-center flex-col gap-x-2 text-[13px] tracking-[0.2em]'>
-                      <div className='delay-100 uppercase font-extrabold'>{image.title} do trem</div>
+                      <div className='delay-100 uppercase font-extrabold'>{image.title}</div>
                       <div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150'>{image.description}</div>
                     </div>
                   </div>

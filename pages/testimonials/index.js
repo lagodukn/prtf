@@ -7,7 +7,7 @@ const Testimonials = () => {
     <ParticlesContainer />
     <div className='container mx-auto h-hull flex flex-col justify-center items-center'>
       <h2 className='h2 mb-8'>
-        O que dizem <span className='text-accentpurple'>geralmente.</span>
+        Minha reputação <span className='text-accentyellow'>profissional.</span>
       </h2>
       <div>
         <TestimonialSlider />

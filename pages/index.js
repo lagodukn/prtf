@@ -27,8 +27,8 @@ const Home = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
-          className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
-          Aqui pode ter uma descrição simples com muitos lorems imsado asda dasm  maomdwaida mdaowdmawd hu hdhua dhua ha huiwd a nadun au ndau au uaua  ndaiuwduyadm md aoimw
+          className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-4'>
+          Minha jornada de evolução profissional, que me levou de um engenheiro mecânico a um desenvolvedor full stack, é uma narrativa que reflete minha paixão por desafios e minha sede de aprendizado.
         </motion.p>
         {/* {btn} */}
         <div className='flex justify-center xl:hidden'>
