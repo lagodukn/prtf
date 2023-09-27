@@ -19,7 +19,7 @@ const testimonialData = [
     name: 'Raphael Matsunaga',
     position: 'CEO - HealthGo',
     message:
-      'Profissional competente, transparente e muito dedicado à evolução pessoal e profissiona.',
+      'Profissional competente, transparente e muito dedicado à evolução pessoal e profissional.',
   },
 ];
 
