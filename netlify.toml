@@ -4,5 +4,5 @@ publish = ".next"
 
 [[redirects]]
 from = "/*"
-to = "/"
+to = "/home"
 status = 200
