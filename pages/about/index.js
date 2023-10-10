@@ -34,29 +34,29 @@ const aboutData = [
       {
         title: 'DEV FullStack',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <SiTypescript />,
-          <FaAngular />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <FaNodeJs />,
-          <SiSqlite />,
-          <SiIonic />
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <SiTypescript key="typescript" />,
+          <FaAngular key="angular" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="next" />,
+          <FaNodeJs key="nodejs" />,
+          <SiSqlite key="sqlite" />,
+          <SiIonic key="ionic" />
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />],
+        icons: [<FaFigma key="figma" />],
       },
       {
         title: 'CFD - Computational Fluid Dynamics',
-        icons: [<SiAnsys />, <FaPython />],
+        icons: [<SiAnsys key="ansys" />, <FaPython key="python" />],
       },
       {
         title: 'Análise de Dados',
-        icons: [<FaPython />, <SiNumpy />, <SiPandas />, <SiSelenium />]
+        icons: [<FaPython key="python" />, <SiNumpy key="numpy" />, <SiPandas key="pandas" />, <SiSelenium key="selenium" />]
       }
     ],
   },
