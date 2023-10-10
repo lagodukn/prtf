@@ -205,15 +205,15 @@ const About = () => {
       {/* {info} */}     
       <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
         <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
-          {aboutData.map((item, itemIndex) => {
-            return (
-              <div key={itemIndex} className={`${index === itemIndex && 'text-white after:w-[100%] after:bg-white after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
-              onClick={() => setIndex(itemIndex)}
-              >
-                {item.title}
-              </div>
-            )
-          })}
+        {aboutData.map((item, itemIndex) => {
+          return (
+            <div key={itemIndex} className={`${index === itemIndex && 'text-white after:w-[100%] after:bg-white after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+            onClick={() => setIndex(itemIndex)}
+            >
+              {item.title}
+            </div>
+          )
+        })}
         </div>
         <div className='bg-white/20 rounded-xl items-center xl:items-start py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 text-sm'>
           {aboutData[index].info.map((item, itemIndex) => {
@@ -223,7 +223,7 @@ const About = () => {
               <div>{item.stage}</div>
               <div className='flex gap-x-4'>
                 {item.icons?.map((icon, itemIndex) => {
-                  return <div className='text-2xl text-white'>{icon}</div>
+                  return <div key={itemIndex} className='text-2xl text-white'>{icon}</div>
                 })}
               </div>
             </div>
